@@ -375,21 +375,45 @@
     height: 94px;
 
     margin-left: 1091px;
-    margin-top: 42px;
+}
+
+.more_info .email .email_title{
+    width: 200px;
+    height: 39px;
+    font-family: 'Montserrat';
+    font-style: normal;
+    font-weight: 600;
+    font-size: 32px;
+    line-height: 39px;
+    background: radial-gradient(194.5% 5115.06% at -8.5% 51.28%, #FFFFFF 0%, rgba(255, 255, 255, 0) 100%);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    background-clip: text;
 }
 
 .more_info .email .email_logo{
     position: absolute;
     display: inline-block;
-    width: 20px;
+    width: 24px;
     height: 20px;
     background-repeat: no-repeat;
     background-size: 20px auto;
+    margin-top: 8px;
+    margin-left: 3px;
+    z-index: 10;
+}
 
+.more_info .email .email_descr{
+    position: absolute;
     font-family: 'Comfortaa';
-    font-style: normal;
-    font-weight: 500;
     font-size: 20px;
     line-height: 160%;
+    font-style: normal;
+    font-weight: 500;
     color: #FFFFFF;
+    z-index: 10;
+}
+
+.more_info .email .email_descr .trash{
+    margin-left: 42px;
 }
