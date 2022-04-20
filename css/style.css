@@ -16,16 +16,19 @@
     margin-right: 186px;
 }
 
-.main .btn_main{
-    width: 200px;
-    height: 50px;
+.main .btn_main_link{
+    display: block;
+}
+
+
+.main .btn_main_link .btn_main{
+    position: absolute;
     left: 1300px;
     top: 57px;
+    width: 200px;
+    height: 50px;
     background: #E05A00;
     border-radius: 10px;
-    margin-left: 191px;
-    margin-top: 57px;
-    margin-right: 100px;
 
     font-family: 'Montserrat';
     font-style: normal;
@@ -33,6 +36,7 @@
     font-size: 18px;
     color: #FFFFFF;
 }
+
 
 .main .img_main{
     position: absolute;
@@ -365,7 +369,7 @@
     font-size: 20px;
     line-height: 24px;
     color: #FFFFFF;
-
+    text-decoration: none;
     margin-top: 10px;
 }
 

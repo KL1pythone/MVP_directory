@@ -4,6 +4,7 @@
 		<meta charset="utf-8">
 		<meta http-equiv="X-UA-Compatible" content="IE=edge">
 		<title>MVP</title>
+		<script src="/src/js/test_style.js"></script>
 		<link rel="preconnect" href="https://fonts.googleapis.com">
 		<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
 		<link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-1BmE4kWBq78iYhFldvKuhfTAU6auU8tT94WrHftjDbrCEXSU1oBoqyl2QvZ6jIW3" crossorigin="anonymous">
@@ -11,42 +12,42 @@
 		<link rel="stylesheet" href="css/style.css">
 	</head>
 	<body>
-		<section class="main">
+		<section class="main" id="main">
 			<div class="img_main">
 				<img src="img/other/Breaking Med 1.png" alt="">
 			</div>
-			<ul class="nav">
+			<ul class="nav" style="margin-left: 489px;">
 				<li class="nav_item">
-				  <a class="nav_link" href="#">Главная</a>
+				  <a class="nav_link" href="#" style="text-decoration: none;">Главная</a>
 				</li>
 				<li class="nav_item">
-				  <a class="nav_link" href="#">О нас</a>
+				  <a class="nav_link" href="#more_book" style="text-decoration: none;">Учебник</a>
 				</li>
 				<li class="nav_item">
-				  <a class="nav_link" href="#">Учебник</a>
+				  <a class="nav_link" href="#more_my" style="text-decoration: none;">О нас</a>
 				</li>
 				<li class="nav_item">
-				  <a class="nav_link" href="#">Отзывы</a>
+					<a class="nav_link" href="#" style="text-decoration: none;">Подписка</a>
 				</li>
-				<li class="nav_item">
-					<a class="nav_link" href="#">Подписка</a>
-				</li>
-				<button class="btn_main">Войти</button>
-			  </ul>
-			  <div class="line_main"></div>
-			  <div class="img_main_second">
-				  <img src="img/bg/kv.png" alt="">
-			  </div>
-			  <div class="descr_main">
-				  <h1>Первый <span>digital-учебник</span> для изучения медицинской биохимии </h1>
-			  </div>
-			  <div class="img_descr">
+				
+			</ul>
+			<a href="Login.html" class="btn_main_link">
+				<button class="btn_main" >Войти</button>
+			</a>
+			<div class="line_main"></div>
+			<div class="img_main_second">
+				<img src="img/bg/kv.png" alt="">
+			</div>
+			<div class="descr_main">
+				<h1>Первый <span>digital-учебник</span> для изучения медицинской биохимии </h1>
+			</div>
+			<div class="img_descr">
 				<img src="img/other/Rectangle 25.png" alt="">
 			</div>
 			<button class="more_main">Подробнее про учебник</button>
 			<button class="sub_main">Оформить подписку</button>
 		</section>
-		<section class="more_book">
+		<section class="more_book" id="more_book">
 			<h2 class="book_main">ОБ УЧЕБНИКЕ</h2>
 			<div class="facts">
 				<div class="fact1">
@@ -54,7 +55,7 @@
 				</div>
 			</div>
 		</section>
-		<section class="more_my">
+		<section class="more_my" id="more_my">
 			<h2 class="more_bg_descr">BREAK ING MED</h2>
 			<img src="img/other/Gusy.png" alt="" class="img_more">
 			<h2 class="more_descr">О НАС</h2>
@@ -99,10 +100,10 @@
 			<nav class="nav_more">
 				<h2 class="nav_more_title">BreakingMed</h2>
 				<br>
-				<a class="nav_more_item">Главная<br></a>
-				<a class="nav_more_item">Подписка<br></a>
-				<a class="nav_more_item">Об учебнике<br></a>
-				<a class="nav_more_item">Отзывы</a>
+				<a class="nav_more_item" href="#main">Главная<br></a>
+				<a class="nav_more_item" href="#">Подписка<br></a>
+				<a class="nav_more_item" href="#more_book">Об учебнике<br></a>
+				<a class="nav_more_item" href="#more_my">О нас</a>
 			</nav>
 			<div class="email">
 				<h2 class="email_title">Контакты:</h2>
