@@ -5,7 +5,7 @@
 }
 
 .login_menu{
-    height: 100vh;
+    height: 900px;
     background: url(Login_back.png);
     background-repeat: no-repeat;
     background-size: cover;
@@ -49,12 +49,35 @@
     transform: matrix(1, 0.06, -0.06, 1, 0, 0);
 }
 
-.form_register{
-    display: none;
-}   
 
-.form_register.active{
-    display: block;
+.succ_img{
+    position: absolute;
+    margin-top: 80px;
+    margin-left: 118px;
+}
+
+.succ_h{
+    position: absolute;
+    width: 269px;
+    height: 64px;
+    margin-top: 190px;
+    margin-left: 140px;
+}
+
+.succ_descr{
+    position: relative;
+    font-family: 'Montserrat';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 23px;
+    line-height: 139.5%;
+    text-align: center;
+    color: #004A8F;
+}
+
+.succ_btn{
+    margin-top: 457px;
+    margin-left: 79px;
 }
 
 .form{
@@ -96,6 +119,20 @@
     font-weight: 600;
     font-size: 18px;
     color: #FFFFFF;
-    padding: 15px 150px;
+    padding: 15px;
     margin-bottom: 11px;
+    cursor: pointer;
+    text-align: center;
 }
+
+.l_register.error{
+    border: 1px solid #DE4444;
+}
+
+.email.error{
+    border: 1px solid #DE4444;
+}
+
+
+
+
